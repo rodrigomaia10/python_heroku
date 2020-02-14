@@ -3,7 +3,7 @@ from flask import flask
 
 app flask(_name_)
 
-@app_route('/')
+@app_route('/teste')
 
 def nao_entre_em_panico():
     if request.headers.get('Authorization') == '42':
