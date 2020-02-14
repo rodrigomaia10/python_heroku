@@ -1,9 +1,9 @@
-importa os
-from flask import flask, jsonify, request
+import os
+from flask import Flask, jsonify, request
 
-app flask(_name_)
+app = Flask(__name__)
 
-@app_route('/teste')
+@app.route('/teste')
 
 def nao_entre_em_panico():
     if request.headers.get('Authorization') == '42':
