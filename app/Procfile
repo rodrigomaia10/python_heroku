@@ -1,1 +1,1 @@
-web: gunicorn 
+web guinicor --pythonpath app heroku_flask.wsgi
